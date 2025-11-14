@@ -63,7 +63,7 @@ Access to:
 * Regular entities (blue boxes) and sub-classes (lighter blue boxes)
 * Bridge entities (green boxes) have been included to convert M:N relationships between regular entities
 * Relationships between entities (yellow diamond boxes)
-![ERD](assets/ERD.png)
+![ERD](assets/ERD.jpg)
 
 ## Business Rules- Relationship between Entities
 ### Participant Relationships
