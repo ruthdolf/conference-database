@@ -1,4 +1,6 @@
 DROP TABLE IF EXISTS `academic_participant`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
 
 CREATE TABLE `academic_participant` (
   `Participant_ID` int NOT NULL,
@@ -9,6 +11,7 @@ CREATE TABLE `academic_participant` (
   UNIQUE KEY `Participant_ID` (`Participant_ID`),
   CONSTRAINT `fk_academic_participant_participant` FOREIGN KEY (`Participant_ID`) REFERENCES `participant` (`Participant_ID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
 
 
 LOCK TABLES `academic_participant` WRITE;
