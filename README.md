@@ -15,8 +15,6 @@ We also created several meaningful queries to support data-driven decision-makin
 * Generates queries and reports to aid decision-making and event management.
 * Enables notifications and traceable communication with participants and stakeholders.
 
-## Key Features
-
 
 ## Key Entities
 
@@ -147,15 +145,59 @@ Refer to data_dictionary
 ![data dictionary](assets/data_dictionary.png)
 
 
-## Queries
+---
+## Queries and Insights
 
-* Participant affiliation summary
-* Ticket sales report
-* Sponsor contribution report
-* Accepted papers report
-* Reviewer performance summary
-* Event schedule with session times and rooms
-* Speaker assignment summary
+### 1. Email addresses of participants with accepted papers
+- **Query:** Retrieve all participants whose papers have an average review score >= 7.
+- **Insight:** Allows the organizing committee to contact accepted participants for session invitations, coordination, or additional instructions.
+
+### 2. Sponsor summary across tiers
+- **Query:** Count of sponsors, total earnings, and average earnings per sponsor by tier (Platinum, Gold, Silver).
+- **Insight:** Helps evaluate sponsorship distribution and financial contribution. Organizers can identify popular tiers, assess overall funding, and plan future engagement strategies.
+
+### 3. Academic participant specializations
+- **Query:** List of academic participant specializations in ascending order of participant count.
+- **Insight:** Shows trends in academic interests, highlights underrepresented fields, and informs planning of sessions or targeted outreach.
+
+### 4. Professional participant organizations
+- **Query:** Count of participants grouped by organization in descending order.
+- **Insight:** Identifies companies or professional organizations most engaged with the conference, useful for partnerships, networking, and marketing decisions.
+
+### 5. Sessions chaired by each reviewer
+- **Query:** Number of sessions each reviewer is chairing.
+- **Insight:** Tracks reviewer involvement and ensures fair workload distribution across multiple sessions.
+
+### 6. Reviewer paper count and average review score
+- **Query:** Number of papers reviewed and average score per reviewer.
+- **Insight:** Monitors reviewer performance, detects anomalies, and ensures consistent and unbiased paper reviews.
+
+### 7. Ticket summary by type
+- **Query:** Number of tickets sold and net earnings (EUR) for each ticket type.
+- **Insight:** Provides an overview of revenue and participant distribution, aiding in financial planning and ticket pricing adjustments.
+
+### 8. Papers under “Digital Forensics”
+- **Query:** List of papers categorized under the topic “Digital Forensics”.
+- **Insight:** Helps organize specialized sessions and understand participant interest in this specific field.
+
+### 9. Booth assignments of Platinum sponsors
+- **Query:** Retrieve booth assignments for Platinum-tier sponsors.
+- **Insight:** Ensures premium sponsors receive priority placement and visibility at the event.
+
+### 10. Session schedule (offline sessions)
+- **Query:** Session date, timing, and assigned rooms.
+- **Insight:** Provides a comprehensive timetable for organizers, speakers, and participants to avoid conflicts and manage attendance efficiently.
+
+### 11. Topic summary
+- **Query:** Number of papers submitted per topic and number of participants interested in each topic.
+- **Insight:** Shows topic popularity, informs session allocation, and supports planning workshops or talks based on audience interest.
+
+
+## Team Members
+ * Lukkanothai Pruekson (ruthdolf)
+ * Amrutha Manjunath
+ * Nishant Malik
+
 
 
 
