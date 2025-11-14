@@ -13,8 +13,6 @@ We also created several meaningful queries to support data-driven decision-makin
 * Manages sessions, speakers, and scheduling conflicts.
 * Handles sponsor information, tiers, and financial contributions.
 * Generates queries and reports to aid decision-making and event management.
-* Enables notifications and traceable communication with participants and stakeholders.
-
 
 ## Key Entities
 
